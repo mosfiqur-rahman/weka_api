@@ -1,0 +1,9 @@
+package weka_test;
+
+public class weka_api {
+
+	public static void main(String[] args)
+	{
+		System.out.println("Hello weka");
+	}
+}

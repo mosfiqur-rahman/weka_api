@@ -1,0 +1,21 @@
+package weka_test;
+
+import weka.*;
+import weka.core.*;
+import weka.core.converters.*;
+import weka.core.converters.ConverterUtils.*;
+import weka.filters.*;
+import weka.filters.unsupervised.*;
+import weka.filters.unsupervised.attribute.*;
+import weka.filters.unsupervised.instance.*;
+import java.io.*;
+
+public class weka_api {
+
+	public static void main(String[] args)
+	{
+		System.out.println("Hello weka");
+		
+		DataSource source = new DataSource("/home/xps/Documents/weka_api/weka/spambase.arff");
+	}
+}

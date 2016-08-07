@@ -1,0 +1,11 @@
+package weka_test;
+
+import weka.*;
+
+public class weka_api {
+
+	public static void main(String[] args)
+	{
+		System.out.println("Hello weka");
+	}
+}
